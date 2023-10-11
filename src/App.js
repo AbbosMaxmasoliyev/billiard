@@ -4,14 +4,19 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import "./index.css";
+import "./App.css";
 import Main from "./pages/Main";
+import Bilyard from "./pages/Bilyard";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main />,
   },
+  {
+    path: "/bilyard",
+    element: <Bilyard />,
+  }
 ]);
 
 

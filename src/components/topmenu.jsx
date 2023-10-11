@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Topmenu = () => {
     return (
@@ -8,7 +9,7 @@ const Topmenu = () => {
                     <a href="https://www.fabrika-start.ru/catalog/">Каталог</a>
                     <ul>
                         <li>
-                            <a href="https://www.fabrika-start.ru/catalog/sect/854/">Бильярд</a>
+                            <Link to="/bilyard">Бильярд</Link>
                             <ul>
                                 <li>
                                     <a href="https://www.fabrika-start.ru/catalog/sect/175/">Бильярдные коллекции</a>

@@ -11,16 +11,21 @@ import LeftNavbar from '../components/leftNavbar';
 
 
 
-function Main() {
+function Bilyard() {
     return (
         <div className='container1'>
             <Header />
             <Topmenu />
             <br />
-            <div style={{ background: "#f7f0dd" }}>
-                <SliderCarousel />
-                <BigCarousel />
+            <div className="no-index">
+
+                <BilyardCollection />
+                <LeftNavbar />
             </div>
+            {/* <div style={{background:"#f7f0dd"}}>
+        <SliderCarousel />
+        <BigCarousel />
+      </div> */}
 
             <br />
             <Info />
@@ -28,4 +33,4 @@ function Main() {
     );
 }
 
-export default Main;
+export default Bilyard;
