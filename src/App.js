@@ -7,6 +7,8 @@ import {
 import "./App.css";
 import Main from "./pages/Main";
 import Bilyard from "./pages/Bilyard";
+import Catalogs from "./pages/catalogs";
+import CollectionBilyard from "./pages/CollectionBilyard";
 
 const router = createBrowserRouter([
   {
@@ -14,9 +16,18 @@ const router = createBrowserRouter([
     element: <Main />,
   },
   {
+    path: "/catalog",
+    element: <Catalogs />,
+  },
+  {
+    path: "bilyardCollection/:name",
+    element: <CollectionBilyard />,
+  },
+  {
     path: "/bilyard",
     element: <Bilyard />,
-  }
+  },
+
 ]);
 
 

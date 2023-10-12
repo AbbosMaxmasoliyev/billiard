@@ -6,7 +6,7 @@ const Topmenu = () => {
         <div className="top-menu__wrap">
             <ul className="top-menu">
                 <li>
-                    <a href="https://www.fabrika-start.ru/catalog/">Каталог</a>
+                    <Link to="/catalog">Каталог</Link>
                     <ul>
                         <li>
                             <Link to="/bilyard">Бильярд</Link>

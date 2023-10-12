@@ -1,5 +1,6 @@
 import React from 'react'
 import * as IconName from "react-icons/bi"
+import { Link } from 'react-router-dom'
 
 const Collection = ({ data }) => {
     return (
@@ -107,4 +108,47 @@ const CollectionPopular = ({ data }) => {
     )
 }
 
-export { Collection, CollectionPopular }
+
+const CollectionWithHide = ({ data }) => {
+    console.log(data);
+    return (
+        <div class="main float-right width772 center-right"><h2>{data.name}</h2>
+            {
+                data.items.map((itemInner, index) => (
+                    <>
+                        <ul class="list col3">
+                            {
+                                itemInner.map((item, index) => {
+                                    return (
+                                        <li>
+                                            <img alt={item.title} src={item.image} title={item.title} />
+                                            <h3><a href="https://www.fabrika-start.ru/catalog/sect/440/">{item.title}</a></h3>
+                                            <p>{item.info}</p>
+                                            <div class="showhideincatalogindex" style={{ display: "none" }}>
+                                                <p>
+                                                    {item.links.map((link, index) => (
+
+                                                        <Link to={link.link} key={index}>{link.name}</Link>
+                                                    ))}
+
+                                                </p>
+                                            </div>
+                                        </li>
+                                    )
+                                })
+                            }
+
+
+
+
+                        </ul>
+                        <p class="text-right"><a href="https://www.fabrika-start.ru/catalog/#" class="show-list black-arrow-down">показать список</a></p>
+                    </>
+                ))
+            }
+
+        </div>
+    )
+}
+
+export { Collection, CollectionPopular, CollectionWithHide }

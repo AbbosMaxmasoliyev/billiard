@@ -47,7 +47,7 @@ const Header = () => {
                     <form method="post" >
                         <input type="text" placeholder="Поиск..." size="15" name="q" className="inputbox" maxLength="50"
                             id="mod-search-searchword" />
-                        <input type="image" onClick="this.form.submit();"
+                        <input type="image"
                             src="./searchButton.gif" className="button" value="Искать" alt="1" />
                     </form>
                 </div>
