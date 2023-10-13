@@ -5090,7 +5090,7 @@ input.disabled {
     float: left;
 }
 
-.switch-size li a {
+.switch-size li p {
     position: relative;
     border-radius: 3px;
     display: block;
@@ -5105,13 +5105,26 @@ input.disabled {
     font-size: 11px;
 }
 
-.switch-size li a.active {
-    background: url('/fortemplate/images/style/button72.png') top center no-repeat;
+.switch-size li p:hover {
+    cursor: pointer;
+}
+
+.switch-size li p.active {
+    background-color: #693120;
     color: #fff;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+}
+
+.switch-size li p.active::after {
+    content: "";
+    width: 0;
+    height: 0;
+    display: inline;
+    position: absolute;
+    bottom: -22px;
+    left: 0;
+    border-width: 12px;
+    border-style: solid;
+    border-color: #693120 transparent transparent transparent;
 }
 
 .switch-size li a span {
