@@ -4,17 +4,20 @@ import React, { useEffect, useState } from 'react'
 
 
 const Table = ({ data, sizesData, parametres }) => {
-    console.log(parametres);
-    const [size, seSize] = useState(sizesData[sizesData.length - 1])
-    const [useFullSize, setUseFullSize] = useState(data.filter(item => item.size == size))
+  
+    const [size, setSize] = useState(null)
+    const [useFullSize, setUseFullSize] = useState([])
     const [minWidth, setMinWidth] = useState()
     const [minHeight, setMinHeight] = useState()
     const [minRoomWidth, setMinRoomWidth] = useState()
     const [minRoomHeight, setMinRoomHeight] = useState()
-    console.log(size);
     useEffect(() => {
-
+        setSize(prev => prev = sizesData[sizesData.length - 1])
         setUseFullSize(prev => prev = data.filter(item => item.size == size))
+    }, [])
+    useEffect(() => {
+        setUseFullSize(prev => prev = data.filter(item => item.size == size))
+
 
         if (size == 5) {
             setMinWidth(prev => prev = 1.64)
@@ -92,7 +95,7 @@ const Table = ({ data, sizesData, parametres }) => {
 
     }, [size])
 
-    console.log(useFullSize);
+
 
 
     return (
@@ -103,9 +106,9 @@ const Table = ({ data, sizesData, parametres }) => {
             <div className="switch-size" data-size-container="">
                 <ul>
                     {
-                        sizesData.map((sizeNumber, index) => (
+                        sizesData && sizesData.map((sizeNumber, index) => (
                             <li key={index}>
-                                <p onClick={() => seSize(prev => prev = sizeNumber)} className={size == sizeNumber ? "active" : null} data-size="8" data-id="spec-table-8">
+                                <p onClick={() => setSize(prev => prev = sizeNumber)} className={size == sizeNumber ? "active" : null} data-size="8" data-id="spec-table-8">
                                     {sizeNumber}ф
                                 </p>
                             </li>
@@ -118,10 +121,20 @@ const Table = ({ data, sizesData, parametres }) => {
             <table data="">
 
                 <thead>
-                    <tr><td>Тип игры</td><td>Размер поля</td><td>Материал стола</td><td>Тип плиты</td><td>Кол-во ног</td><td>Вес</td><td>Цена</td><td>Кредит Онлайн</td><td></td></tr>
+                    <tr>
+                        <td>Тип игры</td>
+                        <td>Размер поля</td>
+                        <td>Материал стола</td>
+                        <td>Тип плиты</td>
+                        <td>Кол-во ног</td>
+                        <td>Вес</td>
+                        <td>Цена</td>
+
+                        <td></td>
+                    </tr>
                 </thead>
                 <tbody>
-                    <tr className="spec-table-12 background-yellow" style={{ display: "table-row" }}><td colSpan="9">Размер игрового поля {size}-ти футового стола:&nbsp;{minWidth}х{minHeight} м. Бильярдная комната должна быть не меньше&nbsp;{minRoomWidth}х{minRoomHeight} м. </td></tr>
+                    <tr className="spec-table-12 background-yellow" style={{ display: "table-row" }}><td colSpan="9">Размер игрового поля {size}-ти футового стола:&nbsp;{minWidth} х {minHeight} м. Бильярдная комната должна быть не меньше&nbsp; {minRoomWidth} х {minRoomHeight}м. </td></tr>
                     {
                         useFullSize.map((sizeItem, index) => (
                             <tr className="spec-table-12" style={{ display: "table-row" }}>
@@ -137,10 +150,7 @@ const Table = ({ data, sizesData, parametres }) => {
                                     <input type="hidden" className="special_price" value="0" />
                                     <b>{sizeItem.price}</b> UZS
                                 </td>
-                                <td>
-                                    <center>
-                                    </center>
-                                </td>
+
                                 <td>
                                     <input alt="36064-1" data-name="Бильярдный стол High-style" data-price="676630" data-url="/catalog/sect/175/good/collection_high_style/" data-img="/upload/resize_cache//medialibrary/7a8/500_72_1/Tb_High-Style_01.jpg" type="submit" className="order button72 js__detail-buy-btn btn_buy_in_detail" value="Купить" />
                                 </td>
@@ -159,33 +169,35 @@ const Table = ({ data, sizesData, parametres }) => {
                     <img alt="Коллекция High-Style" src="/upload/resize_cache//medialibrary/7a8/500_72_1/Tb_High-Style_01.jpg" /></a>
             </div>
 
-            <dl className="parameters">
+            {
+                parametres && <dl className="parameters">
 
-                {
-                    parametres.map((item, index) => {
-                        if (item === "br") {
-                            console.log(item);
-                            return <br />
-                        } else {
+                    {
+                        parametres.map((item, index) => {
+                            if (item === "br") {
+                                console.log(item);
+                                return <br />
+                            } else {
 
-                            return (
-                                <>
-                                    <dd>{item[0]}</dd>
-                                    <dt>{item[1]}</dt>
-                                </>
-                            )
-                        }
+                                return (
+                                    <>
+                                        <dd>{item[0]}</dd>
+                                        <dt>{item[1]}</dt>
+                                    </>
+                                )
+                            }
 
-                    })
-                }
-
-
-
+                        })
+                    }
 
 
 
 
-            </dl>
+
+
+
+                </dl>
+            }
 
         </div>
     )

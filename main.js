@@ -1381,7 +1381,7 @@ spanAnchor.map(item => {
     let main = document.querySelector(".with-breadcrumbs")
     let data = {}
     data["name"] = main.children[2].textContent.replace("Коллекция ", "")
-    data["images"] = document.querySelector(".zoom").children[0].chidlren
+    data["images"] = document.querySelector(".zoom").children[0].children
 
 
 
