@@ -19,9 +19,9 @@ const Collection = ({ data }) => {
                     data.items.map((item, index) => (
                         <li key={index}>
                             <div className='item'>
-                                <a href="https://www.fabrika-start.ru/catalog/sect/175/good/prezident_iii/" title="Президент III">
+                                <Link to={item.link ? item.link : null} title={item.name}>
                                     {/* <img src={item.image} class="w366" /> */}
-                                </a>
+                                </Link>
                             </div>
                             <div style={{ float: "left", position: "absolute", top: "-10px", right: "-80px" }}>
                                 <a class="compare_btn" data-item="4419" style={{ textDecoration: "none" }} href="">
@@ -32,7 +32,7 @@ const Collection = ({ data }) => {
                                     <IconName.BiHeart />
                                 </a>
                             </div>
-                            <a href="https://www.fabrika-start.ru/catalog/sect/175/good/prezident_iii/" title={item.name}>{item.name}</a>
+                            <Link to={item.link ? item.link : null} title={item.name}>{item.name}</Link>
 
                         </li>
                     ))

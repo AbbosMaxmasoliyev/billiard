@@ -12,7 +12,7 @@ const Topmenu = () => {
                             <Link to="/bilyard">Бильярд</Link>
                             <ul>
                                 <li>
-                                    <a href="https://www.fabrika-start.ru/catalog/sect/175/">Бильярдные коллекции</a>
+                                    <Link to="/bilyardCollection">Бильярдные коллекции</Link>
                                 </li>
                                 <li>
                                     <a href="https://www.fabrika-start.ru/kupit_stol_dlja_russkogo_biljarda/">Бильярдные

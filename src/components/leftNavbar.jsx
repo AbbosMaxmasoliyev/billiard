@@ -152,29 +152,7 @@ const LeftNavbar = () => {
                 <Link className="menu-section-level-3" to="1014"><p>Оборудование</p></Link>
             </div>
 
-            <div>
-                <br />
-            </div>
-            <div>
-                <br />
-            </div>
-            <p>
-                <br />
-            </p>
-            <div>
-                <br />
-            </div>
-            <div>
-                <br />
-            </div>
-            <div>
-                <br />
-            </div>
-            <div>
-                <div>
-                </div>
-            </div>
-            <br />
+           
         </div>
     )
 }

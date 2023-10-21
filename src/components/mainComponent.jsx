@@ -1,10 +1,12 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import * as Feather from "react-icons/fi"
 const MainComponent = ({ data }) => {
     console.log(data);
-
-    const [bigImage, setBigImage] = useState(data[0])
-
+    const [images, setImages] = useState(data)
+    const [bigImage, setBigImage] = useState()
+    useEffect(() => {
+        setBigImage(prev => prev = data[0])
+    }, [data])
 
     return (
         <div class="main float-right width772">

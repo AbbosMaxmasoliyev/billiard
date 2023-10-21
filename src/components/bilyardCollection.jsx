@@ -7,113 +7,48 @@ const BilyardCollection = () => {
             name: "Бильярдные коллекции",
             items: [
                 {
-                    "image": "Коллекция-Президент-III.jpg",
-                    "name": "Президент III"
+                    "link": "/bilyardCollection/collection_renessans_gold",
+                    "name": "Ренессанс Голд",
+                    "image": "2017_Renaissance-Gilt.jpg"
                 },
                 {
-                    "image": "2020_Prime_01.jpg",
-                    "name": "Премьер"
+                    "link": "/bilyardCollection/renessans_granzh",
+                    "name": "Ренессанс Гранж",
+                    "image": "2017_Renaissance-Grunj.jpg"
                 },
                 {
-                    "image": "2018_Presedent.jpg",
-                    "name": "Президент"
+                    "link": "/bilyardCollection/collection_renessans",
+                    "name": "Ренессанс",
+                    "image": "2017_Renaissance-Patina.jpg"
                 },
                 {
-                    "image": "2018_Presedent_Silver.jpg",
-                    "name": "Президент Сильвер"
+                    "link": "/bilyardCollection/leo",
+                    "name": "Лео",
+                    "image": "2017_K%D0%BE%D0%BB%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D1%8F-%D0%9B%D0%B5%D0%BE.jpg"
                 },
                 {
-                    "image": "2018_Venice.jpg",
-                    "name": "Венеция"
+                    "link": "/bilyardCollection/kollektsiya_leo_ii",
+                    "name": "Лео II",
+                    "image": "2017_K%D0%BE%D0%BB%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D1%8F-%D0%9B%D0%B5%D0%BE-II.jpg"
                 },
                 {
-                    "image": "2018_Ampir.jpg",
-                    "name": "Ампир"
+                    "link": "/bilyardCollection/kolekciya_grossmeyster",
+                    "name": "Гроссмейстер",
+                    "image": "2023_Grandmaster.jpg"
                 },
                 {
-                    "image": "2020_Неаполь.jpg",
-                    "name": "Новинка"
+                    "link": "/bilyardCollection/motsart_collection",
+                    "name": "Моцарт",
+                    "image": "2021_Mozart.jpg"
                 },
                 {
-                    "image": "2018_Baron_lux.jpg",
-                    "name": "Барон-Люкс"
+                    "link": "/bilyardCollection/okhota_",
+                    "name": "Охота",
+                    "image": "2021_%D0%9E%D1%85%D0%BE%D1%82%D0%B0.jpg"
                 }
             ]
         },
-        {
-            name: "Бильярдные коллекции",
-            items: [
-                {
-                    "image": "Коллекция-Президент-III.jpg",
-                    "name": "Президент III"
-                },
-                {
-                    "image": "2020_Prime_01.jpg",
-                    "name": "Премьер"
-                },
-                {
-                    "image": "2018_Presedent.jpg",
-                    "name": "Президент"
-                },
-                {
-                    "image": "2018_Presedent_Silver.jpg",
-                    "name": "Президент Сильвер"
-                },
-                {
-                    "image": "2018_Venice.jpg",
-                    "name": "Венеция"
-                },
-                {
-                    "image": "2018_Ampir.jpg",
-                    "name": "Ампир"
-                },
-                {
-                    "image": "2020_Неаполь.jpg",
-                    "name": "Новинка"
-                },
-                {
-                    "image": "2018_Baron_lux.jpg",
-                    "name": "Барон-Люкс"
-                }
-            ]
-        },
-        {
-            name: "Бильярдные коллекции",
-            items: [
-                {
-                    "image": "Коллекция-Президент-III.jpg",
-                    "name": "Президент III"
-                },
-                {
-                    "image": "2020_Prime_01.jpg",
-                    "name": "Премьер"
-                },
-                {
-                    "image": "2018_Presedent.jpg",
-                    "name": "Президент"
-                },
-                {
-                    "image": "2018_Presedent_Silver.jpg",
-                    "name": "Президент Сильвер"
-                },
-                {
-                    "image": "2018_Venice.jpg",
-                    "name": "Венеция"
-                },
-                {
-                    "image": "2018_Ampir.jpg",
-                    "name": "Ампир"
-                },
-                {
-                    "image": "2020_Неаполь.jpg",
-                    "name": "Новинка"
-                },
-                {
-                    "image": "2018_Baron_lux.jpg",
-                    "name": "Барон-Люкс"
-                }
-            ]
-        }
+
 
     ])
 
