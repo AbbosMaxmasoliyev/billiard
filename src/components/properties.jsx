@@ -1,6 +1,10 @@
-import React, { useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 
 const Properties = ({ opisaniya, material, otziv }) => {
+    const opisanieRef = useRef(null)
+    useEffect(() => {
+        opisanieRef.current.innerText = opisaniya
+    }, [])
     const [activeClass, setActiveClass] = useState("opisaniya")
     console.log(material);
     return (
@@ -13,9 +17,9 @@ const Properties = ({ opisaniya, material, otziv }) => {
             }
             {otziv && <li className={`tab-name tab-description ${activeClass == "otziv" ? "active" : null}`} onClick={() => setActiveClass(prev => prev = "otziv")}>Отзывы</li>}
             {
-                opisaniya && <li id="tab-description" style={{ display: activeClass !== "opisaniya" ? "none" : null }}>
-                    <div className="tab p80 width756 padding0088">{opisaniya}</div>
-                </li>
+                opisaniya ? <li id="tab-description" style={{ display: activeClass !== "opisaniya" ? "none" : null }}>
+                    <div ref={opisanieRef} className="tab p80 width756 padding0088"></div>
+                </li> : null
             }
             {
                 material && <li id="tab-color" className="" style={{ display: activeClass !== "color" ? "none" : null }}>

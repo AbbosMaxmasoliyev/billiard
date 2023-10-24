@@ -16,7 +16,26 @@ const Collection = ({ data }) => {
 
             <ul class="related-products collection_tables" id="images">
                 {
-                    data.items.map((item, index) => (
+                    data.items ? data.items.map((item, index) => (
+                        <li key={index}>
+                            <div className='item'>
+                                <Link to={item.link ? item.link : null} title={item.name}>
+                                    {/* <img src={item.image} class="w366" /> */}
+                                </Link>
+                            </div>
+                            <div style={{ float: "left", position: "absolute", top: "-10px", right: "-80px" }}>
+                                <a class="compare_btn" data-item="4419" style={{ textDecoration: "none" }} href="">
+                                    <IconName.BiSolidBarChartAlt2 />
+                                </a>
+
+                                <a class="favor" data-item="4419" style={{ textDecoration: "none" }} href="">
+                                    <IconName.BiHeart />
+                                </a>
+                            </div>
+                            <Link to={item.link ? item.link : null} title={item.name}>{item.name}</Link>
+
+                        </li>
+                    )) : data.images.map((item, index) => (
                         <li key={index}>
                             <div className='item'>
                                 <Link to={item.link ? item.link : null} title={item.name}>

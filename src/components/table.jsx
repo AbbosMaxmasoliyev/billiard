@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 
 
 const Table = ({ data, sizesData, parametres }) => {
-  
+    console.log(data);
     const [size, setSize] = useState(null)
     const [useFullSize, setUseFullSize] = useState([])
     const [minWidth, setMinWidth] = useState()
@@ -12,12 +12,19 @@ const Table = ({ data, sizesData, parametres }) => {
     const [minRoomWidth, setMinRoomWidth] = useState()
     const [minRoomHeight, setMinRoomHeight] = useState()
     useEffect(() => {
-        setSize(prev => prev = sizesData[sizesData.length - 1])
-        setUseFullSize(prev => prev = data.filter(item => item.size == size))
+        if (size) {
+            setSize(prev => prev = sizesData[sizesData.length - 1])
+            setUseFullSize(prev => prev = data.filter(item => item.size == size))
+        }
     }, [])
     useEffect(() => {
-        setUseFullSize(prev => prev = data.filter(item => item.size == size))
-
+        if (size) {
+            setUseFullSize(prev => prev = data.filter(item => item.size == size))
+        }
+        if (!size) {
+            setUseFullSize(prev => prev = data)
+        }
+        console.log(useFullSize);
 
         if (size == 5) {
             setMinWidth(prev => prev = 1.64)
@@ -136,26 +143,31 @@ const Table = ({ data, sizesData, parametres }) => {
                 <tbody>
                     <tr className="spec-table-12 background-yellow" style={{ display: "table-row" }}><td colSpan="9">Размер игрового поля {size}-ти футового стола:&nbsp;{minWidth} х {minHeight} м. Бильярдная комната должна быть не меньше&nbsp; {minRoomWidth} х {minRoomHeight}м. </td></tr>
                     {
-                        useFullSize.map((sizeItem, index) => (
-                            <tr className="spec-table-12" style={{ display: "table-row" }}>
+                        useFullSize.map((sizeItem, index) => {
+                            if (sizeItem.type) {
 
-                                <td>{sizeItem.type}</td>
-                                <td>{sizeItem.size} фт</td>
-                                <td>{sizeItem.material_stol}</td>
-                                <td>{sizeItem.plita_type}</td>
-                                <td>{sizeItem.leg}</td>
-                                <td>{sizeItem.ves}</td>
-                                <td nowrap="nowrap" className="td_price" align="center">
-                                    <input type="hidden" className="standart_price active" value="676 630" />
-                                    <input type="hidden" className="special_price" value="0" />
-                                    <b>{sizeItem.price}</b> UZS
-                                </td>
+                                return (<tr className="spec-table-12" style={{ display: "table-row" }}>
 
-                                <td>
-                                    <input alt="36064-1" data-name="Бильярдный стол High-style" data-price="676630" data-url="/catalog/sect/175/good/collection_high_style/" data-img="/upload/resize_cache//medialibrary/7a8/500_72_1/Tb_High-Style_01.jpg" type="submit" className="order button72 js__detail-buy-btn btn_buy_in_detail" value="Купить" />
-                                </td>
-                            </tr>
-                        ))
+                                    <td>{sizeItem.type}</td>
+                                    <td>{sizeItem.size} фт</td>
+                                    <td>{sizeItem.material_stol}</td>
+                                    <td>{sizeItem.plita_type}</td>
+                                    <td>{sizeItem.leg}</td>
+                                    <td>{sizeItem.ves}</td>
+                                    <td nowrap="nowrap" className="td_price" align="center">
+                                        <input type="hidden" className="standart_price active" value="676 630" />
+                                        <input type="hidden" className="special_price" value="0" />
+                                        <b>{sizeItem.price}</b> UZS
+                                    </td>
+
+                                    <td>
+                                        <input alt="36064-1" data-name="Бильярдный стол High-style" data-price="676630" data-url="/catalog/sect/175/good/collection_high_style/" data-img="/upload/resize_cache//medialibrary/7a8/500_72_1/Tb_High-Style_01.jpg" type="submit" className="order button72 js__detail-buy-btn btn_buy_in_detail" value="Купить" />
+                                    </td>
+                                </tr>)
+                            } else {
+                                return null
+                            }
+                        })
                     }
 
                 </tbody>

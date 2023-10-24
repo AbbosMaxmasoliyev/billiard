@@ -10,6 +10,11 @@ import Bilyard from "./pages/Bilyard";
 import Catalogs from "./pages/catalogs";
 import CollectionBilyard from "./pages/CollectionBilyard";
 import BilliardCollectionMain from "./pages/BilliardCollectionMain";
+import Svetilnik from "./pages/Svewtilnik";
+import KeyMain from "./pages/KeyMain";
+import KiiCollection from "./pages/KiiCollection";
+import KeyItem from "./pages/KeyItem";
+import KeyCategory from "./pages/KeyCategory";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +37,36 @@ const router = createBrowserRouter([
     path: "/bilyard",
     element: <Bilyard />,
   },
+  {
+    path: "/svetilnik/:link",
+    element: <Bilyard />,
+  },
+  {
+    path: "/svetilnik/:link/:name",
+    element: <Bilyard />,
+  },
+  {
+    path: "/svetilnik",
+    element: <Svetilnik />,
+  },
+
+  {
+    path: "/key/:category/:name/:key",
+    element: <KeyItem />,
+  },
+  {
+    path: "/key/:category/:name",
+    element: <KeyCategory />,
+  },
+  {
+    path: "/key/:category",
+    element: <KiiCollection />,
+  },
+  {
+    path: "/key",
+    element: <KeyMain />,
+  },
+
 
 ]);
 

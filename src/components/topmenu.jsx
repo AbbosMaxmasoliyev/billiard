@@ -19,10 +19,10 @@ const Topmenu = () => {
                                         столы</a>
                                 </li>
                                 <li>
-                                    <a href="https://www.fabrika-start.ru/catalog/sect/440/">Светильники</a>
+                                    <Link to="/svetilnik">Светильники</Link>
                                 </li>
                                 <li>
-                                    <a href="https://www.fabrika-start.ru/kij_dlja_biljarda/">Кии</a>
+                                    <Link to={"/key"}>Кии</Link>
                                 </li>
                                 <li>
                                     <a href="https://www.fabrika-start.ru/catalog/sect/190/">Киевницы</a>
@@ -132,24 +132,8 @@ const Topmenu = () => {
                         </li>
                     </ul>
                 </li>
-                <li className=""><a href="https://www.fabrika-start.ru/dealers/">Где купить</a>
-                    <ul>
-                        <li className=""><a href="https://www.fabrika-start.ru/dealers/russia/" title="">Россия</a>
-                        </li>
-                        <li className=""><a href="https://www.fabrika-start.ru/dealers/kazachstan/" title="">Казахстан</a>
-                        </li>
-                        <li className=""><a href="https://www.fabrika-start.ru/dealers/belarussia/" title="">Беларусь</a>
-                        </li>
-                        <li className=""><a href="https://www.fabrika-start.ru/dealers/uzbekistan/" title="">Узбекистан</a>
-                        </li>
-                        <li className=""><a href="https://www.fabrika-start.ru/dealers/armenia/" title="">Армения</a>
-                        </li>
-                        <li className=""><a href="https://www.fabrika-start.ru/dealers/georgia/" title="">Грузия</a>
-                        </li>
-                    </ul>
-                </li>
-                <li className=""><a href="https://www.fabrika-start.ru/news/sale/" title="">Акции</a>
-                </li>
+
+
                 <li className=""><a href="https://www.fabrika-start.ru/about/">О компании</a>
                     <ul>
                         <li className=""><a href="https://www.fabrika-start.ru/about/benefits/" title="">Преимущества</a>
