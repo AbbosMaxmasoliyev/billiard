@@ -1,0 +1,599 @@
+{
+  "standartniy": {
+    "name": "Стандартные",
+    "items": [
+      {
+        "link": "k_9_3_nastennaya",
+        "name": "К-9-3 настенная"
+      },
+      {
+        "link": "kievnitsa_nastennaya_k_9_1",
+        "name": "К-9-1 настенная"
+      },
+      {
+        "link": "k_9_2_nastennaya",
+        "name": "К-9-2 настенная"
+      },
+      {
+        "link": "kievnitsa_nastennaya_k_10_1",
+        "name": "К-10 настенная"
+      },
+      {
+        "link": "vesta_nastennaya",
+        "name": "«Веста» настенная"
+      },
+      {
+        "link": "k_22_nastennaya",
+        "name": "К-22 настенная"
+      },
+      {
+        "link": "kievnitsa_vysokaya_napolnaya_k_6",
+        "name": "К-6 напольная"
+      },
+      {
+        "link": "k_24_nastennaya",
+        "name": "К-24 настенная"
+      },
+      {
+        "link": "k_23_nastennaya",
+        "name": "К-23 настенная"
+      },
+      {
+        "link": "bronto_nastennaya",
+        "name": "«Бронто» настенная"
+      },
+      {
+        "link": "kievnitsa_napolnaya_k_8",
+        "name": "К-8 напольная"
+      },
+      {
+        "link": "kievnitsa_napolnaya_s_polochkoy_k_4",
+        "name": "К-4 напольная"
+      },
+      {
+        "link": "kievnitsa_k_7",
+        "name": "K-7 настенная"
+      },
+      {
+        "link": "kievnitsa_nastennaya_k_3",
+        "name": "К-3 настенная"
+      },
+      {
+        "link": "kievnitsa_nastennaya_k_15",
+        "name": "К-15 настенная"
+      },
+      {
+        "link": "kievnitsa_nastennaya_k_17",
+        "name": "К-17 настенная"
+      },
+      {
+        "link": "kievnitsa_nastennaya_k_19",
+        "name": "К-19 настенная"
+      },
+      {
+        "link": "kievnitsa_nastennaya_k_14",
+        "name": "К-14 настенная"
+      },
+      {
+        "link": "kievnitsa_nastennaya_k_11",
+        "name": "К-11 настенная"
+      },
+      {
+        "link": "kievnitsa_universalnaya_k_2",
+        "name": "К-2 настенная"
+      },
+      {
+        "link": "kievnitsa_nastennaya_high_tech_k_18",
+        "name": "К-18 настенная"
+      },
+      {
+        "link": "kievnitsa_nastennaya_k_20",
+        "name": "К-20 настенная"
+      },
+      {
+        "link": "kievnitsa_tumba_k_1",
+        "name": "К-1 напольная"
+      },
+      {
+        "link": "kievnitsa_nastennaya_k_13",
+        "name": "К-13 настенная"
+      },
+      {
+        "link": "kievnitsa_nastennaya_k_12",
+        "name": "К-12 настенная"
+      },
+      {
+        "link": "kievnitsa_s_chasami_k_21",
+        "name": "К-21 с часами напольная"
+      },
+      {
+        "link": "kievnitsa_universalnaya_kr_1",
+        "name": "КР-1 напольная"
+      },
+      {
+        "link": "kabinet_kb_1",
+        "name": "КБ-1 кабинет"
+      },
+      {
+        "link": "kievnitsa_sharovnitsa_panolnye",
+        "name": "Киевница-шаровница"
+      }
+    ]
+  },
+  "exclusive": {
+    "name": "Эксклюзивные",
+    "items": [
+      {
+        "link": "kievnitsa_baronlux",
+        "name": "Киевница «Барон-Люкс»"
+      },
+      {
+        "link": "k_18_high_tech",
+        "name": "К-18 «High-tech»"
+      },
+      {
+        "link": "kievnitsa_highstyle",
+        "name": "Киевница «High-Style»"
+      },
+      {
+        "link": "k_19_ekzotik",
+        "name": "К-19 «Экзотик»"
+      },
+      {
+        "link": "kievnitsa_leo_ii_k_2",
+        "name": "К-2 «Лео II»"
+      },
+      {
+        "link": "kievnitsa_leo_k_2",
+        "name": "К-2 «Лео»"
+      },
+      {
+        "link": "kr1-prezident",
+        "name": "КР «Президент»"
+      },
+      {
+        "link": "kr1-liverpool_lux",
+        "name": "КР «Ливерпуль-Люкс»"
+      },
+      {
+        "link": "kr1-prezident-silver",
+        "name": "КР «Президент Сильвер»"
+      },
+      {
+        "link": "grossmeyster_",
+        "name": "«Гроссмейстер»"
+      },
+      {
+        "link": "k_21_okhota",
+        "name": "«Охота»"
+      },
+      {
+        "link": "kabinet_renessans",
+        "name": "Кабинет «Ренессанс»"
+      },
+      {
+        "link": "kabinet_renessans_gold",
+        "name": "Кабинет «Ренессанс Голд»"
+      },
+      {
+        "link": "k12-renessans",
+        "name": "К-12 «Ренессанс»"
+      },
+      {
+        "link": "imperator_k_12_yasen",
+        "name": "«Император» К-12 ясень"
+      },
+      {
+        "link": "kr1-imperator",
+        "name": "КР «Император»"
+      },
+      {
+        "link": "kr1-veneciya",
+        "name": "КР «Венеция»"
+      },
+      {
+        "link": "kievnitsa_ampir",
+        "name": "КР «Ампир»"
+      },
+      {
+        "link": "kievnitsa_nastennaya_imperator_lyuks_k_12",
+        "name": "К-12 «Император-Люкс»"
+      },
+      {
+        "link": "kievnitsa_imperator_lyuks_kr_1",
+        "name": "КР «Император-Люкс»"
+      },
+      {
+        "link": "kr1-renessans",
+        "name": "КР «Ренессанс»"
+      },
+      {
+        "link": "k12-renessans_gold",
+        "name": "К-12 «Ренессанс Голд»"
+      },
+      {
+        "link": "k_12_imperator_gold",
+        "name": "К-12 «Император Голд»"
+      },
+      {
+        "link": "kr1-renessans_gold",
+        "name": "КР «Ренессанс Голд»"
+      },
+      {
+        "link": "kabinet_imperator_gold",
+        "name": "Кабинет «Император Голд»"
+      },
+      {
+        "link": "kr1-imperator_gold",
+        "name": "КР «Император Голд»"
+      },
+      {
+        "link": "kb1-imperator",
+        "name": "КБ-1 «Император»"
+      },
+      {
+        "link": "kievnitsa_nastennaya_renessans_granzh_k_12",
+        "name": "К-12 «Ренессанс Гранж»"
+      },
+      {
+        "link": "kievnitsa_premer",
+        "name": "«Премьер»"
+      },
+      {
+        "link": "kievnitsa_leo",
+        "name": "«Лео» напольная"
+      },
+      {
+        "link": "kievnitsa_leo_ii",
+        "name": "«Лео II» напольная"
+      },
+      {
+        "link": "kievnitsa_renessans_granzh_kr_1",
+        "name": "КР «Ренессанс Гранж»"
+      },
+      {
+        "link": "kievnitsa_neapol",
+        "name": "«Неаполь»"
+      },
+      {
+        "link": "kabinet_venetsiya_kb_1",
+        "name": "КБ-1 «Венеция»"
+      },
+      {
+        "link": "kievnitsa_morskaya",
+        "name": "«Морская»"
+      },
+      {
+        "link": "kabinet_imperator_lyuks_kb_1",
+        "name": "КБ-1 «Император-Люкс»"
+      },
+      {
+        "link": "kievnitsa_drakon_granzh",
+        "name": "«Дракон Гранж»"
+      },
+      {
+        "link": "kievnitsa_high_style_lux",
+        "name": "«High-Style Lux»"
+      },
+      {
+        "link": "kr_motsart",
+        "name": "«Моцарт»"
+      },
+      {
+        "link": "kievnitsa_dragon",
+        "name": "«Дракон»"
+      }
+    ]
+  },
+  "nastiniy": {
+    "name": "Настенные",
+    "items": [
+      {
+        "link": "k_9_3_nastennaya",
+        "name": "К-9-3 настенная"
+      },
+      {
+        "link": "kievnitsa_nastennaya_k_9_1",
+        "name": "К-9-1 настенная"
+      },
+      {
+        "link": "k_9_2_nastennaya",
+        "name": "К-9-2 настенная"
+      },
+      {
+        "link": "kievnitsa_nastennaya_k_10_1",
+        "name": "К-10 настенная"
+      },
+      {
+        "link": "vesta_nastennaya",
+        "name": "«Веста» настенная"
+      },
+      {
+        "link": "k_22_nastennaya",
+        "name": "К-22 настенная"
+      },
+      {
+        "link": "k_24_nastennaya",
+        "name": "К-24 настенная"
+      },
+      {
+        "link": "k_23_nastennaya",
+        "name": "К-23 настенная"
+      },
+      {
+        "link": "bronto_nastennaya",
+        "name": "«Бронто» настенная"
+      },
+      {
+        "link": "kievnitsa_k_7",
+        "name": "K-7 настенная"
+      },
+      {
+        "link": "kievnitsa_baronlux",
+        "name": "Киевница «Барон-Люкс»"
+      },
+      {
+        "link": "kievnitsa_nastennaya_k_3",
+        "name": "К-3 настенная"
+      },
+      {
+        "link": "kievnitsa_nastennaya_k_15",
+        "name": "К-15 настенная"
+      },
+      {
+        "link": "kievnitsa_nastennaya_k_17",
+        "name": "К-17 настенная"
+      },
+      {
+        "link": "kievnitsa_nastennaya_k_19",
+        "name": "К-19 настенная"
+      },
+      {
+        "link": "kievnitsa_nastennaya_k_14",
+        "name": "К-14 настенная"
+      },
+      {
+        "link": "kievnitsa_nastennaya_k_11",
+        "name": "К-11 настенная"
+      },
+      {
+        "link": "kievnitsa_universalnaya_k_2",
+        "name": "К-2 настенная"
+      },
+      {
+        "link": "k_18_high_tech",
+        "name": "К-18 «High-tech»"
+      },
+      {
+        "link": "kievnitsa_nastennaya_high_tech_k_18",
+        "name": "К-18 настенная"
+      },
+      {
+        "link": "kievnitsa_highstyle",
+        "name": "Киевница «High-Style»"
+      },
+      {
+        "link": "kievnitsa_nastennaya_k_20",
+        "name": "К-20 настенная"
+      },
+      {
+        "link": "kievnitsa_nastennaya_k_13",
+        "name": "К-13 настенная"
+      },
+      {
+        "link": "kievnitsa_nastennaya_k_12",
+        "name": "К-12 настенная"
+      },
+      {
+        "link": "k_19_ekzotik",
+        "name": "К-19 «Экзотик»"
+      },
+      {
+        "link": "kievnitsa_leo_ii_k_2",
+        "name": "К-2 «Лео II»"
+      },
+      {
+        "link": "kievnitsa_leo_k_2",
+        "name": "К-2 «Лео»"
+      },
+      {
+        "link": "k12-renessans",
+        "name": "К-12 «Ренессанс»"
+      },
+      {
+        "link": "kievnitsa_nastennaya_imperator_lyuks_k_12",
+        "name": "К-12 «Император-Люкс»"
+      },
+      {
+        "link": "k12-renessans_gold",
+        "name": "К-12 «Ренессанс Голд»"
+      },
+      {
+        "link": "k_12_imperator_gold",
+        "name": "К-12 «Император Голд»"
+      },
+      {
+        "link": "kievnitsa_nastennaya_renessans_granzh_k_12",
+        "name": "К-12 «Ренессанс Гранж»"
+      }
+    ]
+  },
+  "napolniye": {
+    "name": "Напольные",
+    "items": [
+      {
+        "link": "kievnitsa_vysokaya_napolnaya_k_6",
+        "name": "К-6 напольная"
+      },
+      {
+        "link": "kievnitsa_napolnaya_k_8",
+        "name": "К-8 напольная"
+      },
+      {
+        "link": "kievnitsa_napolnaya_s_polochkoy_k_4",
+        "name": "К-4 напольная"
+      },
+      {
+        "link": "kievnitsa_tumba_k_1",
+        "name": "К-1 напольная"
+      },
+      {
+        "link": "kievnitsa_s_chasami_k_21",
+        "name": "К-21 с часами напольная"
+      },
+      {
+        "link": "kievnitsa_universalnaya_kr_1",
+        "name": "КР-1 напольная"
+      },
+      {
+        "link": "kabinet_kb_1",
+        "name": "КБ-1 кабинет"
+      },
+      {
+        "link": "kievnitsa_sharovnitsa_panolnye",
+        "name": "Киевница-шаровница"
+      },
+      {
+        "link": "kr1-prezident",
+        "name": "КР «Президент»"
+      },
+      {
+        "link": "kr1-liverpool_lux",
+        "name": "КР «Ливерпуль-Люкс»"
+      },
+      {
+        "link": "kr1-prezident-silver",
+        "name": "КР «Президент Сильвер»"
+      },
+      {
+        "link": "grossmeyster_",
+        "name": "«Гроссмейстер»"
+      },
+      {
+        "link": "k_21_okhota",
+        "name": "«Охота»"
+      },
+      {
+        "link": "kabinet_renessans",
+        "name": "Кабинет «Ренессанс»"
+      },
+      {
+        "link": "kabinet_renessans_gold",
+        "name": "Кабинет «Ренессанс Голд»"
+      },
+      {
+        "link": "kr1-imperator",
+        "name": "КР «Император»"
+      },
+      {
+        "link": "kr1-veneciya",
+        "name": "КР «Венеция»"
+      },
+      {
+        "link": "kievnitsa_ampir",
+        "name": "КР «Ампир»"
+      },
+      {
+        "link": "kievnitsa_imperator_lyuks_kr_1",
+        "name": "КР «Император-Люкс»"
+      },
+      {
+        "link": "kr1-renessans",
+        "name": "КР «Ренессанс»"
+      },
+      {
+        "link": "kr1-renessans_gold",
+        "name": "КР «Ренессанс Голд»"
+      },
+      {
+        "link": "kabinet_imperator_gold",
+        "name": "Кабинет «Император Голд»"
+      },
+      {
+        "link": "kr1-imperator_gold",
+        "name": "КР «Император Голд»"
+      },
+      {
+        "link": "kb1-imperator",
+        "name": "КБ-1 «Император»"
+      },
+      {
+        "link": "kievnitsa_premer",
+        "name": "«Премьер»"
+      },
+      {
+        "link": "kievnitsa_leo",
+        "name": "«Лео» напольная"
+      },
+      {
+        "link": "kievnitsa_leo_ii",
+        "name": "«Лео II» напольная"
+      },
+      {
+        "link": "kievnitsa_renessans_granzh_kr_1",
+        "name": "КР «Ренессанс Гранж»"
+      },
+      {
+        "link": "kievnitsa_neapol",
+        "name": "«Неаполь»"
+      },
+      {
+        "link": "kabinet_venetsiya_kb_1",
+        "name": "КБ-1 «Венеция»"
+      },
+      {
+        "link": "kievnitsa_morskaya",
+        "name": "«Морская»"
+      },
+      {
+        "link": "kabinet_imperator_lyuks_kb_1",
+        "name": "КБ-1 «Император-Люкс»"
+      },
+      {
+        "link": "kievnitsa_drakon_granzh",
+        "name": "«Дракон Гранж»"
+      },
+      {
+        "link": "kievnitsa_high_style_lux",
+        "name": "«High-Style Lux»"
+      },
+      {
+        "link": "kr_motsart",
+        "name": "«Моцарт»"
+      },
+      {
+        "link": "kievnitsa_dragon",
+        "name": "«Дракон»"
+      }
+    ]
+  },
+  "polki_dlya_sharov": {
+    "name": "Полки для шаров",
+    "items": [
+      {
+        "link": "polochka_dlya_sharov_p_5",
+        "name": "Полка для шаров П-5"
+      },
+      {
+        "link": "polochka_dlya_sharov_p_4",
+        "name": "Полка для шаров П-4"
+      },
+      {
+        "link": "polka_turnirnaya",
+        "name": "Полка \"Турнирная\""
+      },
+      {
+        "link": "p1",
+        "name": "Полка для шаров П-1"
+      },
+      {
+        "link": "p2",
+        "name": "Полка для шаров П-2"
+      },
+      {
+        "link": "p3",
+        "name": "Полка для шаров П-3"
+      }
+    ]
+  }
+}

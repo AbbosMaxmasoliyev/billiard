@@ -1,0 +1,174 @@
+{
+    "manschester": {
+        "name": "Manchester",
+        "links": [
+            {
+                "name": "Manchester 70 Grey competition",
+                "link": "manchester_70_grey_competition"
+            },
+            {
+                "name": "Manchester 70 wool Yellow green competition",
+                "link": "manchester_70_wool_yellow_green_competition"
+            },
+            {
+                "name": "Manchester 70 wool Blue green competition",
+                "link": "manchester_70_wool_blue_green_competition"
+            },
+            {
+                "name": "Manchester 45 wool Yellow green",
+                "link": "manchester_45_wool_yellow_green"
+            },
+            {
+                "name": "Manchester 60 wool Yellow green",
+                "link": "manchester_60_wool_yellow_green"
+            },
+            {
+                "name": "Manchester 60 wool Blue green",
+                "link": "manchester_60_wool_blue_green"
+            },
+            {
+                "name": "Manchester 60 wool Royal Blue",
+                "link": "manchester_royal_blue"
+            },
+            {
+                "name": "Manchester 60 wool Red",
+                "link": "manchester_red"
+            },
+            {
+                "name": "Manchester 60 wool Powder Blue",
+                "link": "manchester_60_wool_powder_blue"
+            },
+            {
+                "name": "Manchester 60 wool Electric Blue",
+                "link": "manchester_electric_blue"
+            },
+            {
+                "name": "Manchester 60 wool Burgundy",
+                "link": "manchester_burgundy"
+            },
+            {
+                "name": "Manchester snooker",
+                "link": "manchester_snooker"
+            }
+        ]
+    },
+    "tao_mi": {
+        "name": "TAO-MI",
+        "links": [
+            {
+                "name": "TAO-MI 760 CLOTH Yellow green",
+                "link": "tao_mi_760_cloth_yellow_green"
+            }
+        ]
+    },
+    "euro_pro": {
+        "name": "Euro Pro",
+        "links": [
+            {
+                "name": "Euro Pro 30 Yellow Green",
+                "link": "euro_pro_30_yellow_green"
+            },
+            {
+                "name": "Euro Pro 50 Electric Blue",
+                "link": "euro_pro_50_electric_blue"
+            },
+            {
+                "name": "Euro Pro 50 Burgundy",
+                "link": "euro_pro_50_burgundy"
+            },
+            {
+                "name": "Euro Pro 50 Yellow Green",
+                "link": "euro_pro_50_yellow_green"
+            },
+            {
+                "name": "Euro Pro 70 Yellow Green",
+                "link": "euro_pro_70_yellow_green"
+            }
+        ]
+    },
+    "iwan_simons": {
+        "name": "Iwan Simonis",
+        "links": [
+            {
+                "name": "Iwan Simonis 920 Blue green",
+                "link": "iwan_simonis_920_blue_green"
+            },
+            {
+                "name": "Iwan Simonis 760 Olive green",
+                "link": "iwan_simonis_760_olive_green"
+            },
+            {
+                "name": "Iwan Simonis 760 Black",
+                "link": "iwan_simonis_760_black"
+            },
+            {
+                "name": "Iwan Simonis 760 Grey",
+                "link": "alt-cloth-18"
+            },
+            {
+                "name": "Iwan Simonis 760 Gold",
+                "link": "alt-cloth-17"
+            },
+            {
+                "name": "Iwan Simonis 760 Camel",
+                "link": "alt-cloth-16"
+            },
+            {
+                "name": "Iwan Simonis 760 Burgundy",
+                "link": "alt-cloth-15"
+            },
+            {
+                "name": "Iwan Simonis 760 Wine",
+                "link": "alt-cloth-14"
+            },
+            {
+                "name": "Iwan Simonis 760 Purple",
+                "link": "alt-cloth-13"
+            },
+            {
+                "name": "Iwan Simonis 760 Marine Blue",
+                "link": "alt-cloth-12"
+            },
+            {
+                "name": "Iwan Simonis 760 Powder Blue",
+                "link": "alt-cloth-11"
+            },
+            {
+                "name": "Iwan Simonis 760 Spruce",
+                "link": "alt-cloth-10"
+            },
+            {
+                "name": "Iwan Simonis 760 Dark Green",
+                "link": "alt-cloth-09"
+            },
+            {
+                "name": "Iwan Simonis 760 Apple Green",
+                "link": "alt-cloth-08"
+            },
+            {
+                "name": "Iwan Simonis 760 English Green",
+                "link": "alt-cloth-07"
+            },
+            {
+                "name": "Iwan Simonis 760 Red",
+                "link": "alt-cloth-03"
+            },
+            {
+                "name": "Iwan Simonis 760 Electric Blue",
+                "link": "alt-cloth-02"
+            },
+            {
+                "name": "Iwan Simonis 760 Royal Blue",
+                "link": "alt-cloth-01"
+            },
+            {
+                "name": "Iwan Simonis 760 Blue green",
+                "link": "cloth-2"
+            },
+            {
+                "name": "Iwan Simonis 760 Yellow green",
+                "link": "iwan_simonis_760_yellow_green"
+            }
+        ]
+    }
+}

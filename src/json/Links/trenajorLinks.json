@@ -1,0 +1,277 @@
+{
+    "stepper": {
+        "name": "Степперы",
+        "links": [
+            {
+                "name": "Мини-степпер Compact SLF S083",
+                "link": "compact_slf_s083"
+            },
+            {
+                "name": "Мини-степпер поворотный Mobile SLF 5705-1",
+                "link": "mobile_slf_5705_1"
+            },
+            {
+                "name": "Мини-степпер PASSO SLF 402",
+                "link": "mini_stepper_passo_slf_402"
+            }
+        ]
+    },
+    "velotrenajor": {
+        "name": "Велотренажеры",
+        "links": [
+            {
+                "name": "Rapid SLF 8310",
+                "link": "velotrenazher_rapid_slf_8310"
+            },
+            {
+                "name": "Tempo SLF112",
+                "link": "tempo_slf112"
+            },
+            {
+                "name": "Pace SLF11",
+                "link": "pace_slf11"
+            },
+            {
+                "name": "Edition SLF BK8738",
+                "link": "velotrenazher_edition_slf_bk8738"
+            },
+            {
+                "name": "Master SLF BK5806",
+                "link": "velotrenazher_master_slf_bk5806"
+            },
+            {
+                "name": "Спин-байк VELOTOUR",
+                "link": "velotrenazher_spin_bayk_velotour"
+            },
+            {
+                "name": "JUSTY SLF 600",
+                "link": "justy_slf_600"
+            },
+            {
+                "name": "Velocity SLF M5230",
+                "link": "velotrenazher_velocity_slf_m5230"
+            },
+            {
+                "name": "Optimal SLF 8310R",
+                "link": "velotrenazher_optimal_slf_8310r"
+            },
+            {
+                "name": "Energy SLF BK8518",
+                "link": "velotrenazher_energy_slf_bk8518"
+            }
+        ]
+    },
+    "ellipticheskiy_trenajor":{
+        "name": "Эллиптические тренажеры",
+        "links": [
+            {
+                "name": "Compass SLF500",
+                "link": "compass_slf500"
+            },
+            {
+                "name": "Cross SLF TF-609НD",
+                "link": "ellipticheskiy_trenazher_cross_slf_tf_609nd"
+            },
+            {
+                "name": "Expert SLF BK8729H",
+                "link": "ellipticheskiy_trenazher_expert_slf_bk8729h"
+            },
+            {
+                "name": "Active SLF 8310H-1",
+                "link": "ellipticheskiy_trenazher_active_slf_8310h_1"
+            },
+            {
+                "name": "Rally SLF 505H",
+                "link": "ellipticheskiy_trenazher_rally_slf_505h"
+            }
+        ]
+    },
+    "begoviy_dorojki":{
+        "name": "Беговые дорожки",
+        "links": [
+            {
+                "name": "Galaxy SLF MT106",
+                "link": "begovaya_dorozhka_galaxy_slf_mt106"
+            },
+            {
+                "name": "Perfect SLF JK30",
+                "link": "begovaya_dorozhka_perfect_slf_jk30"
+            },
+            {
+                "name": "ZIPPY 420",
+                "link": "zippy_420"
+            },
+            {
+                "name": "ZIPPY 420М c массажером",
+                "link": "zippy_420m"
+            },
+            {
+                "name": "Power SLF 03F45A",
+                "link": "begovaya_dorozhka_power_slf_03f45a"
+            },
+            {
+                "name": "SWIFT 900",
+                "link": "begovaya_dorozhka_swift_900"
+            },
+            {
+                "name": "SWIFT 900М с массажером",
+                "link": "begovaya_dorozhka_swift_900m_s_massazherom"
+            },
+            {
+                "name": "MOTION SLF 150",
+                "link": "motion_slf_150"
+            },
+            {
+                "name": "MOTION SLF 150M с массажером",
+                "link": "motion_slf_150m_s_massazherom"
+            },
+            {
+                "name": "Sprint SLF 038400",
+                "link": "begovaya_dorozhka_sprint_slf_038400"
+            }
+        ]
+    },
+    "envirsionniy":{
+        "name": "Инверсионные",
+        "links": [
+            {
+                "name": "Инверсионный стол Vortex сине-бирюзовый с подушкой",
+                "link": "inversionnyy_stol_vortex_sine_biryuzovyy_s_podushkoy"
+            },
+            {
+                "name": "Инверсионный стол Vortex серо-серебристый с подушкой",
+                "link": "inversionnyy_stol_vortex_sero_serebristyy_s_podushkoy"
+            },
+            {
+                "name": "Инверсионный стол Vortex бежево-серый c подушкой",
+                "link": "inversionnyy_stol_vortex_bezhevo_seryy_c_podushkoy"
+            },
+            {
+                "name": "Flipper бежево-серый с подушкой",
+                "link": "flipper_bezhevo_seryy_s_podushkoy"
+            },
+            {
+                "name": "Flipper сине-бирюзовый с подушкой",
+                "link": "flipper_sine_biryuzovyy_s_podushkoy"
+            },
+            {
+                "name": "Flipper серо-бирюзовый с подушкой",
+                "link": "flipper_sero_biryuzovyy_s_podushkoy"
+            },
+            {
+                "name": "Revolution SLF 06DL",
+                "link": "torsion_revolution_slf_06dl"
+            },
+            {
+                "name": "Extension SLF 12D",
+                "link": "extension_slf_12d"
+            },
+            {
+                "name": "Инверсионный стол Traction SLF сине-бирюзовый черный",
+                "link": "inversionnyy_stol_tracktion_slf_sine_biryuzovyy_chernyy"
+            },
+            {
+                "name": "Инверсионный стол Traction SLF серебристо-серый графитовый",
+                "link": "inversionnyy_stol_tracktion_slf_serebristo_seryy_grafitovyy"
+            },
+            {
+                "name": "Инверсионный стол Traction SLF бежево-серый графитовый",
+                "link": "inversionnyy_stol_tracktion_slf_bezhevo_seryy_grafitovyy"
+            },
+            {
+                "name": "Torsion SLF 02N",
+                "link": "torsion_slf_02n"
+            },
+            {
+                "name": "Traction SLF 015",
+                "link": "inversionnyy_stol_traction_slf_015"
+            }
+        ]
+    },
+    "seloviy_grebniy":{
+        "name": "Силовые, гребные",
+        "links": [
+            {
+                "name": "Transform SLF S08",
+                "link": "transform_slf_s08"
+            },
+            {
+                "name": "Power Slider SLF4HL",
+                "link": "universalnyy_trenazher_power_slider_slf4hl"
+            },
+            {
+                "name": "Training SLF 501-1",
+                "link": "sportivnyy_trenazher_training_slf_501_1"
+            },
+            {
+                "name": "Bench SLF73017",
+                "link": "bench_slf73017"
+            },
+            {
+                "name": "Ultra SLF 8012H",
+                "link": "ultra_slf_8012h"
+            },
+            {
+                "name": "Strong SLF 7080",
+                "link": "strong_slf_7080"
+            },
+            {
+                "name": "Спортивная скамья FLEXION",
+                "link": "sportivnaya_skamya_flexion"
+            }
+        ]
+    },
+    "trenirovichniy_invertar":{
+        "name": "Тренировочный инвентарь",
+        "links": [
+            {
+                "name": "Тренажер Митасова ТРН-02",
+                "link": "trainer-2"
+            },
+            {
+                "name": "Возвратный механизм SLP",
+                "link": "vozvratnyy_mekhanizm_slp"
+            },
+            {
+                "name": "Баскетбольный тренажер SLP",
+                "link": "basketbolnyy_trenazher_slp"
+            },
+            {
+                "name": "Сетка для тренажера 02-10",
+                "link": "setka_dlya_trenazhera_02_10"
+            },
+            {
+                "name": "Тренажер для настольного тенниса на гибком держателе 03-10",
+                "link": "trenazher_dlya_nastolnogo_tennisa_na_gibkom_derzhatele_03_10"
+            },
+            {
+                "name": "Тренажер для настольного тенниса HP-03",
+                "link": "trenazher_dlya_nastolnogo_tennisa_hp_03"
+            },
+            {
+                "name": "Тренажер для настольного тенниса H-600",
+                "link": "trenazher_dlya_nastolnogo_tennisa_h_600"
+            },
+            {
+                "name": "Тренажер для настольного тенниса HP-07",
+                "link": "trenazher_dlya_nastolnogo_tennisa_hp_07"
+            },
+            {
+                "name": "Тренажер для настольного тенниса S-1001",
+                "link": "trenazher_dlya_nastolnogo_tennisa_s_1001"
+            },
+            {
+                "name": "Тренажер \"Стоп-Шар\" 2.0 для бильярда зеленый",
+                "link": "trenazher_stop_shar_2_0_dlya_bilyarda_zelenyy"
+            },
+            {
+                "name": "Тренажер \"Стоп-Шар\" 2.0 для бильярда оранжевый",
+                "link": "trenazher_stop_shar_2_0_dlya_bilyarda_oranzhevyy"
+            },
+            {
+                "name": "Игровое поле для настольного тенниса",
+                "link": "pole4tennis"
+            }
+        ]
+    }
+}

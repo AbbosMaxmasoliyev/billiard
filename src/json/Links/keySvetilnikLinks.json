@@ -1,0 +1,573 @@
+{
+    "neo": {
+        "name": "NEO",
+        "items": [
+            {
+                "name": "«High-Style Lux»",
+                "link": "NEO_high_style_lux"
+            },
+            {
+                "name": "«High-Style»",
+                "link": "high_style_neo"
+            },
+            {
+                "name": "10,11,12 футов / темные",
+                "link": "10_11_12_futov_temnye"
+            },
+            {
+                "name": "10,11,12 футов / светлые",
+                "link": "10_11_12_futov_svetlye"
+            },
+            {
+                "name": "6,7,8,9 футов / темные",
+                "link": "6_7_8_9_futov_temnye"
+            },
+            {
+                "name": "6,7,8,9 футов / светлые",
+                "link": "6_7_8_9_futov_svetlye"
+            }
+        ]
+    },
+    "evolution": {
+        "name": "Evolution",
+        "items": [
+            {
+                "name": "EVOLUTION 6,7,8,9 футов /дерево",
+                "link": "evolution_derevo_6_8_futov"
+            },
+            {
+                "name": "EVOLUTION 6,7,8,9 футов /пвх",
+                "link": "evolution_pvkh_6_8_futov"
+            },
+            {
+                "name": "EVOLUTION 10,11,12 футов /дерево",
+                "link": "evolution_derevo_11_12_futov"
+            },
+            {
+                "name": "«Экзотик»",
+                "link": "ekzotik"
+            },
+            {
+                "name": "«High-tech»",
+                "link": "high_tech_evolution"
+            },
+            {
+                "name": "EVOLUTION 10,11,12 футов /пвх",
+                "link": "evolution_pvkh_11_12_futov"
+            },
+            {
+                "name": "«Президент»",
+                "link": "Evolution_prezident"
+            },
+            {
+                "name": "«Президент III»",
+                "link": "svetilnik_prezidentiii_2"
+            },
+            {
+                "name": "«Президент-Экзотик»",
+                "link": "evolution_prezident_ekzotik"
+            },
+            {
+                "name": "«Гроссмейстер»",
+                "link": "svetilnik_grossmeyster"
+            },
+            {
+                "name": "«Охота»",
+                "link": "okhota_evolution"
+            }
+        ]
+    },
+    "loft": {
+        "name":"Лофт" ,
+        "items": [
+            {
+                "name": "«Лофт» / 6,7,8,9 футов",
+                "link": "loft_6_7_8_9_futov_"
+            }
+        ]
+    },
+    "startbilliards": {
+        "name":  "Startbilliards",
+        "items": [
+            {
+                "name": "6 плафонов, хром/хром",
+                "link": "startbilliards_6_plafonov_khrom_khrom"
+            },
+            {
+                "name": "6 плафонов, золото/хром",
+                "link": "startbilliards_6_plafonov_zoloto_khrom"
+            },
+            {
+                "name": "6 плафонов, зеленый/золото",
+                "link": "startbilliards_6_plafonov_zelenyy_zoloto"
+            },
+            {
+                "name": "6 плафонов",
+                "link": "startbilliards_6_plafonov"
+            },
+            {
+                "name": "5 плафонов, хром/хром",
+                "link": "startbilliards_5_plafonov_khrom_khrom"
+            },
+            {
+                "name": "5 плафонов, золото/хром",
+                "link": "startbilliards_5_plafonov_zoloto_khrom"
+            },
+            {
+                "name": "5 плафонов, зеленый/золото",
+                "link": "startbilliards_5_plafonov_zelenyy_zoloto"
+            },
+            {
+                "name": "5 плафонов",
+                "link": "startbilliards_5_plafonov"
+            },
+            {
+                "name": "4 плафона, хром/хром",
+                "link": "startbilliards_4_plafona_khrom_khrom"
+            },
+            {
+                "name": "4 плафона, золото/хром",
+                "link": "startbilliards_4_plafona_zoloto_khrom"
+            },
+            {
+                "name": "4 плафона, зеленый/золото",
+                "link": "startbilliards_4_plafona_zelenyy_zoloto"
+            },
+            {
+                "name": "4 плафона",
+                "link": "startbilliards_4_plafona"
+            },
+            {
+                "name": "3 плафона, хром/хром",
+                "link": "startbilliards_3_plafona_khrom_khrom"
+            },
+            {
+                "name": "3 плафона, золото/хром",
+                "link": "startbilliards_3_plafona_zoloto_khrom"
+            },
+            {
+                "name": "3 плафона, зеленый/золото",
+                "link": "startbilliards_3_plafona_zelenyy_zoloto"
+            },
+            {
+                "name": "3 плафона",
+                "link": "startbilliards_3_plafona"
+            },
+            {
+                "name": "2 плафона,хром/хром",
+                "link": "2_plafona_khrom_khrom"
+            },
+            {
+                "name": "2 плафона, золото/хром",
+                "link": "2_plafona_zoloto_khrom"
+            },
+            {
+                "name": "2 плафона, зеленый/золото",
+                "link": "startbilliards_2_plafona_zelenyy_zoloto"
+            },
+            {
+                "name": "2 плафона",
+                "link": "startbilliards_2_plafona"
+            },
+            {
+                "name": "1 плафон, хром",
+                "link": "startbilliards_1_plafon_khrom"
+            },
+            {
+                "name": "1 плафон, золото",
+                "link": "startbilliards_1_plafon_zoloto"
+            },
+            {
+                "name": "1 плафон",
+                "link": "startbilliards_1_plafon"
+            }
+        ]
+    },
+    "aristokrat_lux": {
+        "name": "Аристократ-Люкс",
+        "items": [
+            {
+                "name": "3 плафона",
+                "link": "aristokrat_lyuks_3_plafona"
+            },
+            {
+                "name": "4 плафона",
+                "link": "aristokrat_lyuks_4_plafona"
+            },
+            {
+                "name": "5 плафонов",
+                "link": "aristokrat_lyuks_5_plafonov"
+            }
+        ]
+    },
+    "aristokrat": {
+        "name": "Аристократ",
+        "items": [
+            {
+                "name": "3 плафона",
+                "link": "aristokrat_3_plafona"
+            },
+            {
+                "name": "4 плафона",
+                "link": "aristokrat_4_plafona"
+            },
+            {
+                "name": "5 плафонов",
+                "link": "aristokrat_5_plafonov"
+            }
+        ]
+    },
+    "klassika_svetilnik": {
+        "name": "Классика",
+        "items": [
+            {
+                "name": "3 плафона",
+                "link": "aristokrat_3_plafona"
+            },
+            {
+                "name": "4 плафона",
+                "link": "aristokrat_4_plafona"
+            },
+            {
+                "name": "5 плафонов",
+                "link": "aristokrat_5_plafonov"
+            }
+        ]
+    },
+    "exclusive_svetilnik": {
+        "name": "Эксклюзивные светильники",
+        "items": [
+            {
+                "name": "«Ренессанс Гранж»",
+                "link": "svetilnik_renessans_granzh"
+            },
+            {
+                "name": "«Морской»",
+                "link": "svetilnik_morskoy"
+            },
+            {
+                "name": "«Ренессанс Голд»",
+                "link": "lamp_renessans_gold"
+            },
+            {
+                "name": "«Император-Люкс»",
+                "link": "svetilnik_imperator_lyuks"
+            },
+            {
+                "name": "«Император Голд»",
+                "link": "lamp_imperator_gold"
+            },
+            {
+                "name": "«Ренессанс»",
+                "link": "svetilnik_renessans"
+            },
+            {
+                "name": "«Лео II»",
+                "link": "leo_ii_evolution"
+            },
+            {
+                "name": "«Лео»",
+                "link": "svetilnik_leo_ii1"
+            },
+            {
+                "name": "«Лео II»",
+                "link": "svetilnik_leo_ii"
+            },
+            {
+                "name": "«Дракон»",
+                "link": "svetilnik_drakon_2"
+            },
+            {
+                "name": "«Моцарт»",
+                "link": "motsart_"
+            },
+            {
+                "name": "«Неаполь»",
+                "link": "andaluz"
+            },
+            {
+                "name": "«Дракон Гранж»",
+                "link": "svetilnik_drakon_granzh"
+            },
+            {
+                "name": "«Премьер»",
+                "link": "svetilnik_premer"
+            },
+            {
+                "name": "«Император»",
+                "link": "svetilnik_imperator"
+            },
+            {
+                "name": "«Венеция»",
+                "link": "lamp_veneciya"
+            },
+            {
+                "name": "«Ампир»",
+                "link": "svetilnik_ampir"
+            },
+            {
+                "name": "«Президент Сильвер»",
+                "link": "lamp_prezident_silver"
+            },
+            {
+                "name": "«Президент»",
+                "link": "lamp_prezident"
+            },
+            {
+                "name": "«Ливерпуль-Люкс»",
+                "link": "liverpul_lyuks"
+            },
+            {
+                "name": "«Ливерпуль»",
+                "link": "svetilnik_liverpul"
+            },
+            {
+                "name": "«Барон-Люкс»",
+                "link": "svetilnik_baron_lyuks"
+            },
+            {
+                "name": "«Экзотик»",
+                "link": "ekzotik"
+            },
+            {
+                "name": "«High-tech»",
+                "link": "high_tech_evolution"
+            },
+            {
+                "name": "«High-Style Lux»",
+                "link": "NEO_high_style_lux"
+            },
+            {
+                "name": "«Президент»",
+                "link": "Evolution_prezident"
+            },
+            {
+                "name": "«High-Style»",
+                "link": "high_style_neo"
+            },
+            {
+                "name": "«Президент III»",
+                "link": "svetilnik_prezidentiii_2"
+            },
+            {
+                "name": "«Президент-Экзотик»",
+                "link": "evolution_prezident_ekzotik"
+            },
+            {
+                "name": "«Гроссмейстер»",
+                "link": "svetilnik_grossmeyster"
+            },
+            {
+                "name": "«Охота»",
+                "link": "okhota_evolution"
+            }
+        ]
+    },
+    "dekorativniy": {
+        "name": "Декоративное освещение",
+        "items": [
+            {
+                "name": "Бра",
+                "link": "bra"
+            },
+            {
+                "name": "Настольный светильник",
+                "link": "nastolnyy_svetilnik"
+            },
+            {
+                "name": "Торшер",
+                "link": "torsher"
+            },
+            {
+                "name": "Бра «Император Голд»",
+                "link": "bra_imperator_gold"
+            },
+            {
+                "name": "Бра «Президент Сильвер»",
+                "link": "bra_prezident_silver"
+            },
+            {
+                "name": "Бра «Ливерпуль-Люкс»",
+                "link": "bra_liverpul_lyuks"
+            },
+            {
+                "name": "Бра «Ренессанс»",
+                "link": "bra_renessans"
+            },
+            {
+                "name": "Бра «Император»",
+                "link": "bra_imperator"
+            },
+            {
+                "name": "Бра «Барон-Люкс»",
+                "link": "bra_baron_lyuks"
+            },
+            {
+                "name": "Бра «Ампир»",
+                "link": "bra_ampir"
+            },
+            {
+                "name": "Бра «Венеция»",
+                "link": "bra_venetsiya"
+            },
+            {
+                "name": "Бра «Президент»",
+                "link": "bra_prezident"
+            },
+            {
+                "name": "Бра «Президент III»",
+                "link": "bra_prezident_iii"
+            },
+            {
+                "name": "Бра «Ренессанс Гранж»",
+                "link": "bra_renessans_granzh"
+            },
+            {
+                "name": "Бра «Император-Люкс»",
+                "link": "bra_imperator_lyuks"
+            },
+            {
+                "name": "Бра «Ренессанс Голд»",
+                "link": "bra_renessans_gold"
+            },
+            {
+                "name": "Бра «Лео II»",
+                "link": "bra_leo_ii"
+            },
+            {
+                "name": "Бра «Лео»",
+                "link": "bra_leo"
+            },
+            {
+                "name": "Настольный светильник «Император-Люкс»",
+                "link": "nastolnyy_svetilnik_imperator_lyuks"
+            },
+            {
+                "name": "Настольный светильник «Ренессанс Голд»",
+                "link": "nastolnyy_svetilnik_renessans_gold"
+            },
+            {
+                "name": "Настольный светильник «Лео»",
+                "link": "nastolnyy_svetilnik_leo"
+            },
+            {
+                "name": "Настольный светильник «Лео II»",
+                "link": "nastolnyy_svetilnik_leo_ii"
+            },
+            {
+                "name": "Торшер «Ливерпуль-Люкс»",
+                "link": "torsher_liverpul_lyuks"
+            },
+            {
+                "name": "Торшер «Император-Люкс»",
+                "link": "torsher_imperator_lyuks"
+            },
+            {
+                "name": "Торшер «Ренессанс»",
+                "link": "torsher_renessans"
+            },
+            {
+                "name": "Торшер «Барон-Люкс»",
+                "link": "torsher_baron_lyuks"
+            },
+            {
+                "name": "Торшер «Президент»",
+                "link": "torsher_prezident"
+            },
+            {
+                "name": "Торшер «Президент III»",
+                "link": "torsher_prezident_iii"
+            },
+            {
+                "name": "Торшер «Император»",
+                "link": "torsher_imperator"
+            },
+            {
+                "name": "Торшер «Президент Сильвер»",
+                "link": "torsher_prezident_silver"
+            },
+            {
+                "name": "Торшер «Лео II»",
+                "link": "torsher_leo_ii"
+            },
+            {
+                "name": "Торшер «Лео»",
+                "link": "torsher_leo"
+            }
+        ]
+    },
+    "nastolniy_svetilnik" : {
+        "name": "Настольные светильники",
+        "items": [
+            {
+                "name": "Настольный светильник",
+                "link": "nastolnyy_svetilnik"
+            },
+            {
+                "name": "Настольный светильник «Император-Люкс»",
+                "link": "nastolnyy_svetilnik_imperator_lyuks"
+            },
+            {
+                "name": "Настольный светильник «Ренессанс Голд»",
+                "link": "nastolnyy_svetilnik_renessans_gold"
+            },
+            {
+                "name": "Настольный светильник «Лео»",
+                "link": "nastolnyy_svetilnik_leo"
+            },
+            {
+                "name": "Настольный светильник «Лео II»",
+                "link": "nastolnyy_svetilnik_leo_ii"
+            }
+        ]
+    },
+    "torsher_svetilnik": {
+        "name":"Торшеры" ,
+        "items": [
+            {
+                "name": "Торшер",
+                "link": "torsher"
+            },
+            {
+                "name": "Торшер «Ливерпуль-Люкс»",
+                "link": "torsher_liverpul_lyuks"
+            },
+            {
+                "name": "Торшер «Император-Люкс»",
+                "link": "torsher_imperator_lyuks"
+            },
+            {
+                "name": "Торшер «Ренессанс»",
+                "link": "torsher_renessans"
+            },
+            {
+                "name": "Торшер «Барон-Люкс»",
+                "link": "torsher_baron_lyuks"
+            },
+            {
+                "name": "Торшер «Президент»",
+                "link": "torsher_prezident"
+            },
+            {
+                "name": "Торшер «Президент III»",
+                "link": "torsher_prezident_iii"
+            },
+            {
+                "name": "Торшер «Император»",
+                "link": "torsher_imperator"
+            },
+            {
+                "name": "Торшер «Президент Сильвер»",
+                "link": "torsher_prezident_silver"
+            },
+            {
+                "name": "Торшер «Лео II»",
+                "link": "torsher_leo_ii"
+            },
+            {
+                "name": "Торшер «Лео»",
+                "link": "torsher_leo"
+            }
+        ]
+    }
+}
